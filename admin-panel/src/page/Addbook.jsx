@@ -15,7 +15,7 @@ const Addbook = () => {
 
     try {
 
-      const {data} = await axios.post("http://localhost:4000/api/admin/add",{name,bio,price,category})
+      const {data} = await axios.post("https://books-application-1.onrender.com",{name,bio,price,category})
 
       if (data.success) {
 
