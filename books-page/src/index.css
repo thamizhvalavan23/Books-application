@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.app{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  width: 85%;
+  margin: auto;
+
+}
+.add{
+  border-bottom:2px solid rgba(0, 106, 255, 0.577);
+  
+}
+#cart{
+   font-size: 20px ;
+   cursor: pointer;
+}
+.block{
+  display:block;
+}
+.active{
+  border-bottom: 2px solid rgba(0, 102, 255, 0.867);
+}
