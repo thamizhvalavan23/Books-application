@@ -8,7 +8,7 @@ const Dashboard = () => {
   const bookdata = async()=>{
     try {
 
-      const {data} = await axios.get("http://localhost:4000/api/admin/allbook",{})
+      const {data} = await axios.get("https://books-application-1.onrender.com"),{})
 
       if (data.success) {
 
