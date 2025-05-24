@@ -25,7 +25,7 @@ const Login = () => {
 
       
       
-          const {data} =await axios.post("http://localhost:4000/api/admin/register",{name,email,password})
+          const {data} =await axios.post("https://books-application-1.onrender.com",{name,email,password})
       
           if (data.success) {
             localStorage.setItem("token" , data.token)
@@ -42,7 +42,7 @@ const Login = () => {
           }
     }else{
 
-    const {data} = await axios.post("http://localhost:4000/api/admin/login",{email,password},{headers:{token}})
+    const {data} = await axios.post("https://books-application-1.onrender.com",{email,password},{headers:{token}})
 
 
     if (data.success) {
