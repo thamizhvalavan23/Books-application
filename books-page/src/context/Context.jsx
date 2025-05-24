@@ -14,7 +14,7 @@ const Appcontextprovider = (props)=> {
 
         try {
 
-            const {data} = await axios.get("http://localhost:4000/api/admin/get",{headers:{token}})
+            const {data} = await axios.get("https://books-application-1.onrender.com",{headers:{token}})
 
             if (data.success) {
 
