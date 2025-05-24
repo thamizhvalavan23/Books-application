@@ -42,7 +42,7 @@ const Login = () => {
           }
     }else{
 
-    const {data} = await axios.post("https://books-application-1.onrender.com",{email,password},{headers:{token}})
+    const {data} = await axios.post("https://books-application-1.onrender.com/api/admin/login",{email,password},{headers:{token}})
 
 
     if (data.success) {
