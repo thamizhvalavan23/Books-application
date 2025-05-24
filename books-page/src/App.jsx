@@ -4,7 +4,7 @@ import Navbar from './Components/navbar.jsx';
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx';
 import Books from './pages/Books.jsx';
-import Cart from './pages/cart.jsx';
+import Cart from './pages/Cart.jsx';
 import About from './pages/about.jsx';
 import Login from './pages/Login.jsx';
 import Orderlist from './pages/Orderlist.jsx';
