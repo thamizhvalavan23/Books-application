@@ -5,10 +5,10 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx';
 import Books from './pages/Books.jsx';
 import Cart from './pages/Cart.jsx';
-import About from './pages/about.jsx';
+import About from './pages/About.jsx';
 import Login from './pages/Login.jsx';
 import Orderlist from './pages/Orderlist.jsx';
-import Contact from './pages/contact.jsx';
+import Contact from './pages/Contact.jsx';
 import Footer from './Components/Footer.jsx';
 import { ToastContainer } from 'react-toastify';
 import UserProfile from './pages/userProfile.jsx';
